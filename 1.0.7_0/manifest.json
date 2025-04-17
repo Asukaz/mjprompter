@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_action": "popup.html",
+      "default_title": "AI Image Prompter"
+   },
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "css/content.css", "css/style1.css", "css/div_helper.css" ],
+      "js": [ "js/init.js", "js/common.js", "js/jquery-3.6.4.js", "js/div_helper.js", "js/draw-helper-1.js", "js/content.js", "js/main.js" ],
+      "matches": [ "https://discord.com/*", "https://www.midjourney.com/*", "https://app.slack.com/*", "https://jimeng.jianying.com/*", "https://runwayml.com/*", "https://openai.com/*", "https://www.midjourney.com/*", "https://stability.ai/*", "https://runwayml.com/*", "https://wenxin.baidu.com/*", "https://modelscope.cn/*", "https://zhiying.qq.com/*", "https://lingxi.sogou.com/*", "https://mt.qq.com/*", "https://mos.ai/*", "https://kuaishou.cn/*", "https://yangtu.ai/*", "https://qingshanai.com/*", "https://moonshot.cn/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "An easier AI image prompting tool for Midjourney and more",
+   "differential_fingerprint": "1.267b327913e7455a1a210cd808d25cc6e3a967fb59bf5f59e787cf2e105435bf",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkCqzHJjeehdvaZXlolXTfnCQmkR2RInIoo/iK1Mx4YVOtHml9OQy2NVzxkwV9rNJUanDCuSJgQDUd5NWCX5sdf1uJ62hpWeNeOAMEz0+hfIL0IQX6aWf6mGdOD4nwQMAtrY74Es0GTFNEYp9fSDRB1zgNtkWKJi7DLQ7eNjaeGJOtUiJbPzzT5iGE+6a5Nqd7vX4iZ2e+ayflMnXOOckwalvHuvd3NSgB0dtVT5BvF0T0B/WByR+j76Tflwg8jkX1RObWzVPTF9LXc2GJ4p7Szv5aiN0h5hAIVTvD5LjvTi2YvSP8Zdl+dMXWtbVQQ3sMEOJ4QgKP4zG0rz36IlD/QIDAQAB",
+   "manifest_version": 3,
+   "name": "AI Image Prompter - for Midjourney and more",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.7",
+   "web_accessible_resources": [ {
+      "matches": [ "https://discord.com/*", "https://www.midjourney.com/*", "https://app.slack.com/*", "https://jimeng.jianying.com/*", "https://runwayml.com/*", "https://openai.com/*", "https://www.midjourney.com/*", "https://stability.ai/*", "https://runwayml.com/*", "https://wenxin.baidu.com/*", "https://modelscope.cn/*", "https://zhiying.qq.com/*", "https://lingxi.sogou.com/*", "https://mt.qq.com/*", "https://mos.ai/*", "https://kuaishou.cn/*", "https://yangtu.ai/*", "https://qingshanai.com/*", "https://moonshot.cn/*" ],
+      "resources": [ "main.html", "images/icon-48.png" ]
+   } ]
+}

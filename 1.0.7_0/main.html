@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+<title>AI Image Prompter</title>
+<link rel="stylesheet" href="css/local-content.css">
+<link rel="stylesheet" href="css/style1.css">
+
+
+</head>
+<body>
+<div id="mainFloatBox">
+    <div id='showHandle'> 
+        <img src='images/icon-48.png' class='logo-show' title='Image Prompter'/> 
+        <div id="hideButton">Hide</div>
+      </div> 
+
+<div id="pageBox" class="pageBox">
+    <div class="promptBox">
+        
+        <div class="titleBox">
+            <div class="title1">
+                <img src="images/icon-48.png" class="logo1"/>
+                <span>AI Image Prompter</span>
+            </div>
+            <div class="title2">
+                Visual AI image prompting tool for Midjourney, stability and more
+            </div>
+        </div>
+        <div class="promptDiv">
+            <div class="promptBoxLine">
+                <div class="basicLabel" >Core prompt:</div>
+                <textarea id="txt_core_prompt" class="txt_prompt" rows="2" placeholder="Input what to draw"></textarea>
+            </div>
+            <div class="promptBoxLine">
+                <div class="basicLabel">Final prompt:</div>
+                <textarea id="txt_final_prompt" class="txt_prompt" rows="4" placeholder="Select how to draw"></textarea>
+                <div class="button_div"> 
+                    <button id="btn_copy_final_prompt"  class="basic_button1">copy</button> 
+                    <button id="btn_clear_final_prompt" class="basic_button1">clear</button> 
+                </div>
+            </div>
+         </div>
+
+         <div id="feature_check_group_div" class="feature_check_group_div">
+            <div></div>
+        </div>
+    </div>
+    
+    <div id="operationDiv">
+        <div id="operationTitle" class="operationTitle">
+            &nbsp;&nbsp;&nbsp;
+        </div>
+
+        <div id="operationBox" class="operationBox" >
+        </div>
+   
+    </div>
+
+    <div id="msgBox" class="msgBox" >
+    </div>
+
+    <div>
+        &nbsp;
+    </div>
+    
+    <div class="footBox">
+        
+
+        <div class="foot_line">
+            <img src="images/icon-48.png" class="logo2"/>
+            <a href="https://sites.google.com/view/imageprompter" target="_blank">&nbsp;AI Image Prompter&nbsp;</a>
+              v1.0.7 , data version &nbsp;<span id="data_version">1.0</span>
+        </div>
+
+        <div class="foot_line">  
+            Bug or Suggestion report on 
+            <a href="https://twitter.com/luupine_studio" target="_blank">&nbsp;Twitter&nbsp;</a>
+        </div>
+        
+        <div class="foot_line">
+            <span>Created by Ray Lee, Luupine Studio &nbsp;</span> 
+            <span id="year_div"></span>  
+        </div>
+    </div>
+</div>
+</div>
+
+<template tag="dimension_tabs">
+    $(template_list_dimension_tabs)
+    <div >1111</div>
+</template>
+
+<template tag="dimension_tab">
+    <div class="dimTab"  tab_dimname="$(dimname1)" ><span>$(dimname0)</span></div>
+</template>
+
+
+<template tag="dimensions">
+    $(template_list_dimension)
+</template>
+
+<template tag="dimension">
+    <div class="dim_features_box" tag="dim_features_box" dim_box_name="$(dimName)" >
+        <div class="dimName">
+         
+        </div>
+
+        $(template_list_feature_box)
+    </div>
+</template>
+
+<template tag="feature_box">
+    <div class="featureBox">
+        $(template_feature_type)
+      
+        <div class="featureValues">
+            <div class="feature_heads_box" tag="feature_heads"> 
+                $(template_list_feature_heads)
+                <div class="feature_more_btn_div">  
+                    <button class="feature_tails_button">...</button> 
+                   
+                </div>
+            </div>
+            <div class="feature_tails_box" tag="feature_more">
+                <div class="feature_tails">
+                     $(template_list_feature_tails)
+              </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+
+
+<template tag="feature">
+    <div class="$(feature_class)" prompt="$(feature_prompt)" dimension="$(dimension)" featuretype="$(featureType)" featurename="$(featureName)" title="$(img_title)">
+        <div class="$(feature_img_div_class)" >
+            <img class="$(feature_small_img_class)" alt="$(img_alt)"   src="$(img_src)"  loading="eager"/>
+        </div>
+        <div class="featureText">$(feature_caption) <span>$(sub_count)</span> </div>                    
+    </div>
+</template>
+
+
+<template tag="feature_check_group_box">
+    <div class="feature_check_group_box"  checked_dim_name="$(checked_dim_name)">
+        <div class="checked_dim" >
+            $(checked_dim_name)
+        </div>
+        <div class="checked_features" >
+            $(checked_features)
+        </div>
+    </div>
+</template>
+
+<template tag="checked_feature">
+    <div class="check_feature" checked_feature="$(checked_feature)">
+        $(checked_feature)
+        <div class="check_feature_tick" dim_name="$(dim_name)" checked_feature="$(checked_feature)">x</div>
+    </div>
+</template>
+
+</body>
+
+<script src="js/jquery-3.6.4.js" ></script>
+<script src="js/init.js" ></script>
+<script src="js/main.js" ></script>
+
+</html>

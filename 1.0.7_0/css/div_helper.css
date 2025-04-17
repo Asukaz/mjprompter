@@ -1,0 +1,84 @@
+/* 
+    Selectors of div floating helper toolbar framework  
+    @author: Ray Lee
+    @email: raykkncc@gmail.com
+    @date: 2023-5-20
+*/
+
+
+
+/* 
+    framework selectors below
+*/
+.helper_toolbar_box {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+    display: none;
+    
+
+    z-index: 99;
+}
+
+.helper_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 36px;
+    height: 36px;
+    
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.helper_line_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    /*width: ?%;*/
+}
+
+
+.helper_logo_div {
+    width: 26px;
+    height: 26px;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.helper_logo_div:hover {
+    background-color:  rgb(50, 54, 65); 
+}
+
+.helper_logo1 {
+    width: 24px;
+    height: 24px;
+}
+
+
+.helper_logo1 > polygon {
+    fill:   #edeaea;
+    stroke: none;
+    stroke-width: 4px;
+}
+
+.helper_logo1_selected {
+    width: 24px;
+    height: 24px;
+}
+
+.helper_logo1_selected > polygon {
+    fill:   orange;
+    stroke: orange;
+    stroke-width: 4px;
+}
+
