@@ -24,7 +24,7 @@
             { "name": "scenario", "caption": "场景",  "alias": "scenario","image": "https://cdn.discordapp.com/attachments/1008571159043903509/1104413771901972520/thiemo_Power_to_the_merchants_dad0d1c2-c33f-405c-ad2e-099e24bbbda9.png"  }
         ],
         "figure" : [
-            { "name": "portrait",  "caption": "肖像",   "type" : "figure",  "alias": "portrait", "image":"https://cdn.discordapp.com/attachments/1008571159043903509/1097992299985776691/Gwen-Hrq_Face_marked_by_years_and_trials_white_hair_and_beard_a_df614903-0b45-4247-8c2f-d10b8b7e3d03.png" }, 
+            { "name": "portrait1",  "caption": "肖像",   "type" : "figure",  "alias": "portrait", "image":"https://cdn.discordapp.com/attachments/1008571159043903509/1097992299985776691/Gwen-Hrq_Face_marked_by_years_and_trials_white_hair_and_beard_a_df614903-0b45-4247-8c2f-d10b8b7e3d03.png" }, 
             { "name": "profile",   "caption": "侧像",   "type" : "figure",  "alias": "side view","image":"https://cdn.discordapp.com/attachments/945077390839787570/1103602941589454908/Aleksey_Shmatko_dot_matrix_art_left_profile_baroness_portrait_o_0abe1fcc-c9d8-4d72-882e-5621e91f3a8c.png" },  
             { "name": "headshot",   "caption": "证件照",   "type" : "figure",  "alias": "","image": "https://cdn.discordapp.com/attachments/1008571240858009620/1102261203453095946/Abhi_a_headshot_of_Emma_Johnson_Title_Full_Stack_Web_Developer__091ab6d8-6470-45ed-9af4-f8408c8d225d.png" },
             { "name": "full_body_shot", "caption": "全身像", "type" : "figure",  "alias": "full body shot", "image":"https://cdn.discordapp.com/attachments/945077390839787570/1106579992407711794/mslnyang_Galadriel_wearing_an_elegant_royal_gown_standing_in_a__b08b994d-d548-427a-a932-107d3675fd41.png"}, 
