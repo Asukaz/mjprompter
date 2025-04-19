@@ -120,6 +120,7 @@
             { "name": "2d_cartoon", "caption": "2D卡通",   "type":"cartoon", "alias": "animation" , "image":"https://cdn.discordapp.com/attachments/1008571102328541215/1104384609644458025/Lamnippos_2d_character_female_cartoon_style_jungle_girl_for_uni_718503b3-49bf-4c6a-ae1c-d1b71b1ef209.png" },
             { "name": "3d_cartoon", "caption": "3D卡通", "type":"cartoon", "alias": "3d cartoon style" , "image":"https://cdn.discordapp.com/attachments/1008571102328541215/1104420359282896896/nothingmmsp_the_cute_robot_girl_who_had_red_long_hair_and_she_p_9bff62d1-afd0-4d3e-b8ab-d161648d5868.png" },
             { "name": "3d_sticker", "caption": "3D贴纸", "type":"cartoon", "alias": "3d cartoon sticker" , "image":"https://cdn.discordapp.com/attachments/1008571102328541215/1104420359282896896/nothingmmsp_the_cute_robot_girl_who_had_red_long_hair_and_she_p_9bff62d1-afd0-4d3e-b8ab-d161648d5868.png" },
+            { "name": "微型立体场景呈现，运用移轴摄影的技法，呈现出Q版画面", "caption": "Q", "type":"cartoon", "alias": "QQ" , "image":"https://cdn.discordapp.com/attachments/1008571102328541215/1104420359282896896/nothingmmsp_the_cute_robot_girl_who_had_red_long_hair_and_she_p_9bff62d1-afd0-4d3e-b8ab-d161648d5868.png" },
 
             { "name": "animation", "caption": "动画片", "type":"cartoon", "alias": "animation style" , "image":"https://cdn.discordapp.com/attachments/1008571120242409472/1110566134270406827/shochan_photography_from_Disney_Pixar_Studios_anime_babyface_ja_731c949d-4ecf-4681-b31d-362e44ee0bca.png" },
           
