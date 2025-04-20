@@ -5,7 +5,7 @@
 
 // Configuration
 const CONFIG = {
-  feature_url: "https://raw.githubusercontent.com/Asukaz/mjprompter/refs/heads/main/1.0.7_0/conf/gpt4o-prompt-samples.json",
+  feature_url: "https://raw.githubusercontent.com/Asukaz/mjprompter/refs/heads/main/popup/gpt4o-prompt-samples.json",
   // Alternative path for local testing
   local_feature_url: "conf/gpt4o-prompt-samples.json",
   defaultImgSrc: "images/fallback.png"
