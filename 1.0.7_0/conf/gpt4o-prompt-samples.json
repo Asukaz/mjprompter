@@ -12,7 +12,7 @@
   ],
   "style": {
     "featureTypes": [
-      { "name": "rendering_style", "caption": "Rendering Style", "alias": "3D style", "image": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/examples/example_low_poly_lizard.jpeg" },
+      { "name": "rendering_style", "caption": "Rendering Style", "alias": "3D style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_low_poly_lizard.jpeg" },
       { "name": "photography_style", "caption": "Photography Style", "alias": "photo style", "image": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/examples/example_ordinary_selfie_eason_nicholas.jpeg" },
       { "name": "object_style", "caption": "Object Style", "alias": "product style", "image": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/examples/example_emoji_cushion_pleading.jpeg" }
     ],
@@ -23,7 +23,7 @@
         "type": "rendering_style", 
         "alias": "geometric 3D, faceted 3D", 
         "prompt": "A low-poly 3D render of a [subject], built from clean triangular facets with flat [color1] and [color2] surfaces. The environment is a stylized digital desert with minimal geometry and ambient occlusion.", 
-        "image": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/examples/example_low_poly_lizard.jpeg"
+        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_low_poly_lizard.jpeg"
       },
       {
         "name": "paper_craft_style",
