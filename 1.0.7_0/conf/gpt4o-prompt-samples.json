@@ -49,7 +49,7 @@
     "featureTypes": [
       { "name": "test_style", "caption": "Test Style", "alias": "Test style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_emoji_cushion_pleading.jpeg" }
     ],
-    "object_style": [
+    "test_style": [
       {
         "name": "inflatable_emoji",
         "caption": "Inflatable Emoji",
