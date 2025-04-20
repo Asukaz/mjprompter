@@ -1,0 +1,63 @@
+{
+  "file_name": "Prompt features configure for GPT-4o Image Prompter",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "date": "2025-4-20",
+  "email": "youremail@example.com",
+  "dimension": [
+    { "name": "style", "caption": "Style", "type": "" },
+    { "name": "subject", "caption": "Subject", "type": "" },
+    { "name": "composition", "caption": "Composition", "type": "" },
+    { "name": "technical", "caption": "Technical", "type": "" }
+  ],
+
+  "style": {
+    "featureTypes": [
+      { "name": "rendering_style", "caption": "Rendering Style", "alias": "3D style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_low_poly_lizard.jpeg" },
+      { "name": "photography_style", "caption": "Photography Style", "alias": "photo style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_ordinary_selfie_eason_nicholas.jpeg" }
+    ],
+    "rendering_style": [
+      { 
+        "name": "low_poly_3d", 
+        "caption": "Low-Poly 3D", 
+        "type": "rendering_style", 
+        "alias": "geometric 3D, faceted 3D", 
+        "prompt": "A low-poly 3D render of a [subject], built from clean triangular facets with flat [color1] and [color2] surfaces. The environment is a stylized digital desert with minimal geometry and ambient occlusion.", 
+        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_low_poly_lizard.jpeg"
+      },
+      {
+        "name": "paper_craft_style",
+        "caption": "Paper Craft Style",
+        "type": "rendering_style",
+        "alias": "paper art, paper emoji",
+        "prompt": "A paper craft-style \"🔥\" floating on a pure white background. The emoji is handcrafted from colorful cut paper with visible textures, creases, and layered shapes. It casts a soft drop shadow beneath, giving a sense of lightness and depth. The design is minimal, playful, and clean — centered in the frame with lots of negative space. Use soft studio lighting to highlight the paper texture and edges.",
+        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_paper_craft_emoji_fire.jpeg"
+      }
+    ],
+    "photography_style": [
+      {
+        "name": "ordinary_selfie",
+        "caption": "Ordinary Selfie",
+        "type": "photography_style",
+        "alias": "casual photo, amateur photography",
+        "prompt": "Please draw an extremely ordinary iPhone selfie, lacking a clear subject or sense of composition, like a snapshot taken casually. The photo has slight motion blur, and uneven sunlight or indoor lighting causes slight overexposure. The angle is awkward, the composition is chaotic, presenting an overall sense of deliberate mediocrity - like a selfie accidentally taken while pulling the phone out of a pocket. The subjects are Eason Chan and Nicholas Tse, at night, next to the Hong Kong Convention and Exhibition Centre, beside Victoria Harbour in Hong Kong.",
+        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_ordinary_selfie_eason_nicholas.jpeg"
+      }
+    ]
+  },
+  "subject": {
+    "featureTypes": [
+      { "name": "test_style", "caption": "Test Style", "alias": "Test style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_emoji_cushion_pleading.jpeg" }
+    ],
+    "test_style": [
+      {
+        "name": "inflatable_emoji",
+        "caption": "Inflatable Emoji",
+        "type": "test_style",
+        "alias": "puffy object, plush emoji",
+        "prompt": "Create a high-resolution 3D render of [🥹] designed as an inflatable, puffy object. The shape should appear soft, rounded, and air-filled — like a plush balloon or blow-up toy. Use a smooth, matte texture with subtle fabric creases and stitching to emphasize the inflatable look. The form should be slightly irregular and squishy, with gentle shadows and soft lighting that highlight volume and realism. Place it on a clean, minimal background (light gray or pale blue), and maintain a playful, sculptural aesthetic.",
+        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_emoji_cushion_pleading.jpeg"
+      }
+    ]
+  }
+}

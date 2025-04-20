@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Image Prompter</title>
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Left sidebar with main tabs -->
+    <div class="sidebar">
+      <!-- Search bar -->
+      <div class="search-container">
+        <input type="text" id="searchPrompts" placeholder="Search prompts..." class="search-input">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </div>
+      
+      <!-- Main vertical tabs -->
+      <div class="main-tabs" id="mainTabs">
+        <!-- Main tabs will be generated here -->
+      </div>
+    </div>
+    
+    <!-- Right content area -->
+    <div class="content-area">
+      <!-- Top title and header -->
+      <div class="prompt-title-container" id="promptTitleContainer">
+        <!-- Title will be shown here -->
+      </div>
+      
+      <!-- Sub tabs -->
+      <div class="sub-tabs-container">
+        <div class="sub-tabs" id="subTabs">
+          <!-- Sub tabs will be generated here -->
+        </div>
+      </div>
+      
+      <!-- Main content area with features and details -->
+      <div class="main-content">
+        <!-- Left side: Feature examples list -->
+        <div class="prompt-examples" id="promptExamples">
+          <!-- Prompt examples will be shown here -->
+        </div>
+        
+        <!-- Right side: Prompt details view -->
+        <div class="prompt-details">
+          <div class="prompt-preview-container">
+            <!-- Feature title and category -->
+            <h2 id="promptName"></h2>
+            <div class="prompt-category">
+              <!-- Category tag will be generated here -->
+            </div>
+            
+            <!-- Preview image -->
+            <div class="preview-image-container">
+              <img id="previewImage" src="images/fallback.png" alt="Preview" class="preview-image">
+            </div>
+            
+            <!-- Prompt text section -->
+            <div class="prompt-section">
+              <div class="prompt-header">
+                <h3>PROMPT</h3>
+                <button id="copyPromptBtn" class="copy-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="copy-icon">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  Copy
+                </button>
+              </div>
+              <div class="prompt-text-container">
+                <p id="promptText" class="prompt-text"></p>
+              </div>
+            </div>
+            
+            <!-- Variables section -->
+            <div class="variables-section">
+              <h3>CUSTOMIZE VARIABLES</h3>
+              <div class="variables-grid" id="variablesContainer">
+                <!-- Variables will be generated here -->
+              </div>
+            </div>
+            
+            <!-- Generate button -->
+            <div class="generate-button-container">
+              <button id="generateBtn" class="generate-btn">Generate with GPT-4o</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.6.4.js"></script>
+  <script src="js/popup.js"></script>
+</body>
+</html>
