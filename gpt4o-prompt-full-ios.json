@@ -193,7 +193,7 @@
   
   "style": {
     "featureTypes": [
-      { "name": "artistic_style", "caption": "Artistic Style", "alias": "art style", "image": "https://animeai.online/demo/ghibli-style-mona-lisa.png" },
+      { "name": "artistic_style", "caption": "Artistic Style", "alias": "art style", "image": "https://img.ilgcdn.com/sites/default/files/styles/xl/public/foto/2025/03/29/1743246789-chatgpt-image-29-mar-2025-12-12-33.png" },
       { "name": "rendering_style", "caption": "Rendering Style", "alias": "visual style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_low_poly_lizard.jpeg" },
       { "name": "camera", "caption": "Camera", "alias": "photography", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_ordinary_selfie_eason_nicholas.jpeg" },
       { "name": "technique", "caption": "Technique", "alias": "technique style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_matryoshka_pearl_earring.png" },
