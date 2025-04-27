@@ -196,8 +196,8 @@
       { "name": "artistic_style", "caption": "Artistic Style", "alias": "art style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_ghibli_style_mona_lisa.png" },
       { "name": "rendering_style", "caption": "Rendering Style", "alias": "visual style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_low_poly_lizard.jpeg" },
       { "name": "camera", "caption": "Camera", "alias": "photography", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_ordinary_selfie_eason_nicholas.jpeg" },
-      { "name": "technique", "caption": "Technique", "alias": "technique style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_ordinary_selfie_eason_nicholas.jpeg" },
-      { "name": "love", "caption": "Love", "alias": "love style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_ordinary_selfie_eason_nicholas.jpeg" }
+      { "name": "technique", "caption": "Technique", "alias": "technique style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_matryoshka_pearl_earring.png" },
+      { "name": "love", "caption": "Love", "alias": "love style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_proposal_scene_q_realistic.jpeg" }
     ],
     
     "artistic_style": [
@@ -531,22 +531,6 @@
         "alias": "water globe", 
         "prompt": "Convert the people in the photo into a crystal ball scene. Overall environment: The crystal ball is placed on a desk by a window, background blurred, warm tones. Sunlight passes through the sphere, casting specks of golden light that illuminate the surrounding darkness. Inside the crystal ball: The characters are cute Q-version 3D models, with eyes full of love for each other.",
         "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_3d_q_snowglobe_couple.jpeg" 
-      },
-      { 
-        "name": "couple_figurine", 
-        "caption": "Couple Figurine", 
-        "type": "love", 
-        "alias": "romantic statuette", 
-        "prompt": "Based on the content of the photo, create a meticulously detailed, adorably cute 3D rendered collectible figurine, placed in a warm pastel-colored, romantically themed display box. The display box is light cream-colored with soft gold accents, resembling an elegant portable jewelry box. Opening the lid reveals a warm romantic scene: two Q-version characters gazing lovingly at each other. The box lid is inscribed with \"FOREVER TOGETHER\", surrounded by delicate star and heart patterns. Inside stands the woman from the photo, holding a small bouquet of white flowers. Beside her is her partner, the man from the photo. Both have large, bright, expressive eyes and warm, gentle smiles, conveying deep love and captivating charm. Behind them is a round window through which a sunny Chinese classical small town skyline and soft floating clouds can be seen. The box interior is illuminated with warm, soft lighting, with flower petals floating in the background to enhance the atmosphere. The entire display box and characters have elegant, harmonious color schemes, creating a luxurious and dreamy miniature souvenir scene. Size: 9:16",
-        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_3d_collectible_couple_box.jpeg" 
-      },
-      {
-        "name": "chinese_double_happiness",
-        "caption": "Chinese Double Happiness",
-        "type": "love",
-        "alias": "囍 symbol",
-        "prompt": "Traditional Chinese wedding scene with a prominent red '囍' (double happiness) symbol in the background, decorated with intricate paper-cut style patterns",
-        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_q_chinese_wedding.jpeg"
       },
       {
         "name": "flower_arch",
