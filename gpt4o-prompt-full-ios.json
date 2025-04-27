@@ -193,7 +193,7 @@
   
   "style": {
     "featureTypes": [
-      { "name": "artistic_style", "caption": "Artistic Style", "alias": "art style", "image": "https://camo.githubusercontent.com/63e38be08d24d951971382abd82426b5e6c06f085f65e368a0ce8a511056676d/68747470733a2f2f616e696d6561692e6f6e6c696e652f64656d6f2f676869626c692d7374796c652d6d6f6e612d6c6973612e706e67" },
+      { "name": "artistic_style", "caption": "Artistic Style", "alias": "art style", "image": "https://animeai.online/demo/ghibli-style-mona-lisa.png" },
       { "name": "rendering_style", "caption": "Rendering Style", "alias": "visual style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_low_poly_lizard.jpeg" },
       { "name": "camera", "caption": "Camera", "alias": "photography", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_ordinary_selfie_eason_nicholas.jpeg" },
       { "name": "technique", "caption": "Technique", "alias": "technique style", "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_matryoshka_pearl_earring.png" },
