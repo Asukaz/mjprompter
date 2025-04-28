@@ -423,6 +423,54 @@
         "alias": "political cartoon",
         "prompt": "A satirical cartoon-style illustration in vintage American comic style, background shows multi-tiered shelves, all shelves stocked with identical red baseball caps, caps have large text slogan \"MAKE AMERICA GREAT AGAIN\" on front, side labels reading \"MADE IN CHINA\", close-up view focusing on one red baseball cap. At bottom is price tag, original price \"$50.00\" crossed out with thick black X, changed to \"$77.00\", color scheme in nostalgic earth yellow and dark red tones, shadows processed with 90s vintage print quality. Overall composition is exaggerated and satirical, implying criticism of political consumerism.",
         "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_maga_hat_cartoon.jpeg"
+      },
+      {
+        "name": "polaroid_breakout",
+        "caption": "Polaroid Breakout",
+        "type": "artistic_style",
+        "alias": "photo escape effect",
+        "prompt": "Transform the scene's character into 3D Q-version style, place them on a Polaroid photo being held by a hand, with the character walking out of the Polaroid photo, creating a visual effect of breaking through the 2D photo border and entering the 2D real space.",
+        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_polaroid_breakout.png"
+      },
+      {
+        "name": "painting_to_balloon",
+        "caption": "Painting to Balloon",
+        "type": "artistic_style",
+        "alias": "art to inflatable",
+        "prompt": "Transform the person in the image into a doll-shaped helium balloon",
+        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_pearl_earring_balloon.jpeg"
+      },
+      {
+        "name": "photo_to_matryoshka",
+        "caption": "Photo to Matryoshka",
+        "type": "artistic_style",
+        "alias": "nesting doll conversion",
+        "prompt": "Transform the person in the image into Q-version cute Russian nesting dolls (matryoshka), five in total from large to small, placed on an elegant wooden table, in 4:3 aspect ratio",
+        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_matryoshka_pearl_earring.png"
+      },
+      {
+        "name": "flat_sticker_design",
+        "caption": "Flat Sticker Design",
+        "type": "artistic_style",
+        "alias": "minimal illustration",
+        "prompt": "Transform this photo into a minimalist flat illustration style Q-version sticker, thick white border, retain the character's features, make the style cuter, character should extend beyond the circular area border, the circular area should be solid color without 3D feeling, transparent background",
+        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_flat_sticker_pearl_earring.jpeg"
+      },
+      {
+        "name": "ootd_transformation",
+        "caption": "OOTD Transformation",
+        "type": "artistic_style",
+        "alias": "outfit of the day",
+        "prompt": "Create an Outfit Of The Day (OOTD) for the person in the image, with fashionable clothing and accessories, background in solid color matching the character's color scheme, Q-version 3D, C4D rendering, maintain facial features, consistent posture, character proportion with very long legs. Layout: 9:16, text at top: OOTD, left side: Q-version character with OOTD, right side: individual clothing items displayed. First profession: fashion designer",
+        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_pearl_earring_ootd.png"
+      },
+      {
+        "name": "cereal_box",
+        "caption": "Cereal Box",
+        "type": "artistic_style",
+        "alias": "breakfast product",
+        "prompt": "\"Master Oats\": Based on the uploaded photo's character features, create a suitable oatmeal pairing (such as vegetables, fruits, yogurt, whole grains, etc.) and packaging design. Then generate an ad cover featuring the character as the cereal box cover model along with the corresponding oatmeal pairing. The character should maintain their features, cute Q-version 3D, C4D rendering style, and the place where the cereal is displayed should also match the setting, such as kitchen, supermarket, minimalist design table, etc.",
+        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_master_oats_ad.png"
       }
     ],
     "rendering_style": [
@@ -503,46 +551,6 @@
         "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_portal_crossing_handhold.jpeg"
       },
       {
-        "name": "polaroid_breakout",
-        "caption": "Polaroid Breakout",
-        "type": "technique",
-        "alias": "photo escape effect",
-        "prompt": "Transform the scene's character into 3D Q-version style, place them on a Polaroid photo being held by a hand, with the character walking out of the Polaroid photo, creating a visual effect of breaking through the 2D photo border and entering the 2D real space.",
-        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_polaroid_breakout.png"
-      },
-      {
-        "name": "painting_to_balloon",
-        "caption": "Painting to Balloon",
-        "type": "technique",
-        "alias": "art to inflatable",
-        "prompt": "Transform the person in the image into a doll-shaped helium balloon",
-        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_pearl_earring_balloon.jpeg"
-      },
-      {
-        "name": "photo_to_matryoshka",
-        "caption": "Photo to Matryoshka",
-        "type": "technique",
-        "alias": "nesting doll conversion",
-        "prompt": "Transform the person in the image into Q-version cute Russian nesting dolls (matryoshka), five in total from large to small, placed on an elegant wooden table, in 4:3 aspect ratio",
-        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_matryoshka_pearl_earring.png"
-      },
-      {
-        "name": "flat_sticker_design",
-        "caption": "Flat Sticker Design",
-        "type": "technique",
-        "alias": "minimal illustration",
-        "prompt": "Transform this photo into a minimalist flat illustration style Q-version sticker, thick white border, retain the character's features, make the style cuter, character should extend beyond the circular area border, the circular area should be solid color without 3D feeling, transparent background",
-        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_flat_sticker_pearl_earring.jpeg"
-      },
-      {
-        "name": "ootd_transformation",
-        "caption": "OOTD Transformation",
-        "type": "technique",
-        "alias": "outfit of the day",
-        "prompt": "Create an Outfit Of The Day (OOTD) for the person in the image, with fashionable clothing and accessories, background in solid color matching the character's color scheme, Q-version 3D, C4D rendering, maintain facial features, consistent posture, character proportion with very long legs. Layout: 9:16, text at top: OOTD, left side: Q-version character with OOTD, right side: individual clothing items displayed. First profession: fashion designer",
-        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_pearl_earring_ootd.png"
-      },
-      {
         "name": "tweet_screenshot",
         "caption": "Tweet Screenshot",
         "type": "technique",
@@ -557,14 +565,6 @@
         "alias": "travel document mark",
         "prompt": "Create a realistic passport page with an entry stamp for [Rome, Italy]. The stamp should say \"Welcome to Rome\" in bold English, designed in a round or oval shape with decorative borders. Include the word \"ARRIVAL\" and a fictional date like \"15 APR 2025\" Incorporate a subtle silhouette of [Colosseum] as a background detail within the stamp. Use deep blue or red ink with light smudges for added realism. The stamp should appear slightly angled, as if hand-pressed. The passport page should show visible paper texture and security patterns.",
         "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_passport_stamp_rome.jpeg"
-      },
-      {
-        "name": "cereal_box",
-        "caption": "Cereal Box",
-        "type": "technique",
-        "alias": "breakfast product",
-        "prompt": "\"Master Oats\": Based on the uploaded photo's character features, create a suitable oatmeal pairing (such as vegetables, fruits, yogurt, whole grains, etc.) and packaging design. Then generate an ad cover featuring the character as the cereal box cover model along with the corresponding oatmeal pairing. The character should maintain their features, cute Q-version 3D, C4D rendering style, and the place where the cereal is displayed should also match the setting, such as kitchen, supermarket, minimalist design table, etc.",
-        "image": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/refs/heads/main/examples/example_master_oats_ad.png"
       },
       {
         "name": "manga_panel",
